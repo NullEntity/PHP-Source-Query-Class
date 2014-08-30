@@ -2,9 +2,8 @@
 	require __DIR__ . '/SourceQuery/SourceQuery.class.php';
 
 	$query = new SourceQuery();
-	function ServerInfo($ip, $port)
+	function ServerInfo($ip, $port, &$query)
 	{
-		global $query;	
 		$ret = "Error loading server info for " . $ip . ":" . $port;
 		try
 		{
