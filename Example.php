@@ -9,8 +9,13 @@
 		{
 			$query->Connect($ip, $port, 1, SourceQuery::SOURCE);
 			$info = $query->GetInfo();
-			$ret = $info['Map'] . " [" . $info['Players'] . "/" $info['MaxPlayers'] . " players]";
+			$ret = $info['Map'] . " [" . $info['Players'] . "/" . $info['MaxPlayers'] . " players]";
 		}
+		catch(Exception $e) 
+		{ 
+			
+		}
+		
 		return ret;
 	}
 	
