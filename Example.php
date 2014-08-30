@@ -16,5 +16,5 @@
 	
 	echo "Insurgency: " . ServerInfo("fuckyouvilnowputyourfuckingipinhereyourself", 27015);
 	
-	$Query->Disconnect( );
+	$query->Disconnect( );
 ?>
