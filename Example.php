@@ -19,7 +19,7 @@
 		return ret;
 	}
 	
-	echo "Insurgency: " . ServerInfo("fuckyouvilnowputyourfuckingipinhereyourself", 27015);
+	echo "Insurgency: " . ServerInfo("fuckyouvilnowputyourfuckingipinhereyourself", 27015, $query	);
 	
 	$query->Disconnect( );
 ?>
