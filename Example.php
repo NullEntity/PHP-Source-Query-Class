@@ -2,7 +2,7 @@
 	require __DIR__ . '/SourceQuery/SourceQuery.class.php';
 
 	$query = new SourceQuery();
-	function info($ip, $port)
+	function ServerInfo($ip, $port)
 	{
 		$ret = "Error loading server info for " . $ip . ":" . $port;
 		try
@@ -14,7 +14,7 @@
 		return ret;
 	}
 	
-	echo "Insurgency: " . info("vnbinsurgtdm.game.nfoservers.com", 27015);
+	echo "Insurgency: " . ServerInfo("fuckyouvilnowputyourfuckingipinhereyourself", 27015);
 	
 	$Query->Disconnect( );
 ?>
