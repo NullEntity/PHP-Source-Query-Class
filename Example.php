@@ -16,7 +16,7 @@
 			
 		}
 		
-		return ret;
+		return $ret;
 	}
 	
 	echo "Insurgency: " . ServerInfo("fuckyouvilnowputyourfuckingipinhereyourself", 27015, $query	);
