@@ -7,6 +7,7 @@
 		$ret = "Error loading server info for " . $ip . ":" . $port;
 		try
 		{
+			print_r($query);
 			$query->Connect($ip, $port, 1, SourceQuery::SOURCE);
 			$info = $query->GetInfo();
 			$ret = $info['Map'] . " [" . $info['Players'] . "/" . $info['MaxPlayers'] . " players]";
